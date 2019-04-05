@@ -1,0 +1,15 @@
+{
+    "Version": "2008-10-17",
+    "Id": "PublicAccess",
+    "Statement": [
+        {
+            "Sid": "AllowGetObject",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "<bucket-arn>/*"
+        }
+    ]
+}
