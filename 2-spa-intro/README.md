@@ -83,6 +83,7 @@ phases:
     commands:
        - serverless deploy --stage dev
 ```
+* Make sure to update the role with admin access.
 
 ### Publish the latest
 * Commit to dev
